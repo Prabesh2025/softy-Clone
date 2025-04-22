@@ -4,11 +4,14 @@ import isoText from "../assets/iso-text.png";
 
 export default function Navbar() {
   return (
-    <div className="  w-full mx-auto fixed bg-gradient-to-r from-purple-800 via-purple-600 to-pink-400 py-1  ">
+    <div className="  w-full mx-auto bg-gradient-to-r from-purple-800 via-purple-600 to-pink-400 py-1 md:py-3 lg:py-1  ">
       <div className="flex justify-between items-center ml-4 mr-4">
-        <div className="flex gap-50 items-center">
-          {/* first child -logo */}
+
+            {/* first child -logo */}
+        <div className=" flex md:hidden lg:flex xl:gap-50  lg:gap-30 sm:gap-50 gap-30 items-center ">
+          
           <div>
+            
             <img
               src={softyImage}
               alt="softylogo"
@@ -16,6 +19,7 @@ export default function Navbar() {
               width={50}
               className="cursor-pointer"
             />
+            
           </div>
 
           <div>
@@ -25,7 +29,7 @@ export default function Navbar() {
 
         {/* Sec child */}
 
-        <div className="flex  items-center space-x-9  text-white text-[16.5px] font-medium cursor-pointer ">
+        <div className=" hidden md:flex  items-center space-x-9  text-white text-[16.5px] font-medium cursor-pointer ">
           <p className="hover:border-b-3 hover:border-white border-b-transparent border-b-3 hover:duration-900">
             Home
           </p>
@@ -48,7 +52,7 @@ export default function Navbar() {
 
         {/* third-child-logo */}
 
-        <div className="flex items-center gap-4 cursor-pointer ">
+        <div className=" hidden md:flex items-center gap-4 cursor-pointer ">
           <svg
             className="bg-gray-300 p-1 rounded-full hover:scale-110 duration-500"
             xmlns="http://www.w3.org/2000/svg"
@@ -75,9 +79,9 @@ export default function Navbar() {
           >
             <path
               fill="currentColor"
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M2.5 12a9.5 9.5 0 1 1 6.516 9.022l-2.858.952A.5.5 0 0 1 5.5 21.5v-2.572A9.48 9.48 0 0 1 2.5 12m12.277 2.038l2.65-3.92c.262-.386-.235-.805-.615-.529l-2.858 2.015a.57.57 0 0 1-.652 0l-2.116-1.477c-.633-.437-1.538-.277-1.963.335l-2.65 3.92c-.262.386.235.806.615.529l2.858-2.015a.57.57 0 0 1 .652 0l2.116 1.452c.633.462 1.538.302 1.963-.31"
-              clip-rule="evenodd"
+              clipRule="evenodd"
             />
           </svg>
 
@@ -114,10 +118,10 @@ export default function Navbar() {
                   gradientTransform="matrix(0 -253.715 235.975 0 68 275.717)"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#fd5" />
-                  <stop offset=".1" stop-color="#fd5" />
-                  <stop offset=".5" stop-color="#ff543e" />
-                  <stop offset="1" stop-color="#c837ab" />
+                  <stop stopColor="#fd5" />
+                  <stop offset=".1" stopColor="#fd5" />
+                  <stop offset=".5" stopColor="#ff543e" />
+                  <stop offset="1" stopColor="#c837ab" />
                 </radialGradient>
                 <radialGradient
                   id="skillIconsInstagram1"
@@ -127,9 +131,9 @@ export default function Navbar() {
                   gradientTransform="matrix(22.25952 111.2061 -458.39518 91.75449 -42.881 18.441)"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#3771c8" />
-                  <stop offset=".128" stop-color="#3771c8" />
-                  <stop offset="1" stop-color="#60f" stop-opacity="0" />
+                  <stop stopColor="#3771c8" />
+                  <stop offset=".128" stopColor="#3771c8" />
+                  <stop offset="1" stopColor="#60f" stopOpacity="0" />
                 </radialGradient>
               </defs>
             </g>
@@ -150,8 +154,8 @@ export default function Navbar() {
                 y1="100%"
                 y2="0%"
               >
-                <stop offset="0%" stop-color="#1faf38" />
-                <stop offset="100%" stop-color="#60d669" />
+                <stop offset="0%" stopColor="#1faf38" />
+                <stop offset="100%" stopColor="#60d669" />
               </linearGradient>
               <linearGradient
                 id="logosWhatsappIcon1"
@@ -160,8 +164,8 @@ export default function Navbar() {
                 y1="100%"
                 y2="0%"
               >
-                <stop offset="0%" stop-color="#f9f9f9" />
-                <stop offset="100%" stop-color="#fff" />
+                <stop offset="0%" stopColor="#f9f9f9" />
+                <stop offset="100%" stopColor="#fff" />
               </linearGradient>
             </defs>
             <path
@@ -179,7 +183,7 @@ export default function Navbar() {
           </svg>
 
           <svg
-            className="text- bg-gray-300 p-1 rounded-full hover:scale-110 duration-500"
+            className="text-blue-700 bg-gray-300 p-1 rounded-full hover:scale-110 duration-500"
             xmlns="http://www.w3.org/2000/svg"
             width="30"
             height="30"
@@ -191,6 +195,7 @@ export default function Navbar() {
             />
           </svg>
         </div>
+        
       </div>
     </div>
   );
