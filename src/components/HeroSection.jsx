@@ -6,7 +6,7 @@ import softy4Img from "../assets/softyImg/imgk.png";
 
 import { ArrowRight } from "lucide-react";
 import { Droplet } from "lucide-react";
-import { NonBinary } from 'lucide-react';
+import { Award } from 'lucide-react';
 import { Truck } from 'lucide-react';
 import { Flag } from 'lucide-react';
 import { Phone } from 'lucide-react';
@@ -135,7 +135,7 @@ export default function HeroSection() {
       </div>
 
       {/* second div  */}
-      <div className="py-10 bg-gray-100  ">
+      <div className="border-b border-purple-200 py-10 bg-gray-100  ">
         {/* Sec-first div  */}
         <div className=" flex flex-col text-center space-y-1 w-11/12 mx-auto">
           <h1 className=" text-4xl font-bold bg-gradient-to-r from-purple-950  via-pink-400 to-purple-800 bg-clip-text text-transparent py-1 ">
@@ -167,7 +167,7 @@ export default function HeroSection() {
           <div className=" border border-red-100 rounded-md bg-gradient-to-r from-green-50 to-purple-50 py-8 px-7 hover:shadow-md duration-400 group h-65">
             <p className="bg-green-100 px-3 py-3 h-12 w-12 rounded-xl  mb-6">
               
-              <NonBinary className="text-green-600"/>
+            <Award className="text-green-600"/>
             </p>
             <h3 className="text-xl font-semibold opacity-80 group-hover:text-purple-950 mb-4">
               Uncompromising Quality
