@@ -1,7 +1,9 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import HeroSection from './components/HeroSection'
+
 import FooterSection from './components/FooterSection'
+import PerViewCarousel from './components/PerViewCarousel'
+import HeroSection from './components/HeroSection'
 
 
 
@@ -10,8 +12,10 @@ export default function App() {
     <div>
           
        <Navbar/>   
+       <PerViewCarousel/>
        <HeroSection/>
        <FooterSection/>
+
        
 
     </div>

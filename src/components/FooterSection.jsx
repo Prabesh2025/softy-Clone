@@ -6,7 +6,7 @@ import { ArrowRight } from "lucide-react";
 export default function FooterSection() {
   return (
     <div>
-      <div className=" flex justify-center   bg-gradient-to-r from-purple-700 via-pink-400 to-purple-700 mt-10 py-4">
+      <div className=" flex justify-center  bg-gradient-to-r from-purple-700 via-pink-400 to-purple-700 mt-10 py-4">
         <div className="mt-10 -mb-10">
           <img
             src={logoImg}
