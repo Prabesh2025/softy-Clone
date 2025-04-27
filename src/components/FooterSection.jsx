@@ -11,9 +11,9 @@ export default function FooterSection() {
           <img
             src={logoImg}
             alt="logo"
-            height={110}
-            width={110}
-            className="bg-purple-600 p-4 rounded-full"
+            height={118}
+            width={118}
+            className="bg-purple-600 py-4 px-5 rounded-full"
           />
         </div>
       </div>

@@ -5,6 +5,7 @@ import FooterSection from './components/FooterSection'
 import PerViewCarousel from './components/PerViewCarousel'
 import HeroSection from './components/HeroSection'
 import DetailCardSection from './components/DetailCardSection'
+import Animation from './components/Animation'
 
 
 
@@ -16,6 +17,7 @@ export default function App() {
        <PerViewCarousel/>
        <HeroSection/>
        <DetailCardSection/>
+       <Animation/>
        <FooterSection/>
 
        
